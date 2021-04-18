@@ -1,0 +1,40 @@
+FOR THE DEMOS:
+
+**** To run the Java code for Strong Components, as a demo:
+cd Java/UnitTests
+
+// To compile and run the SCC code:
+javac -d ../Classes/SCCClasses/ ../Src/SCC/*.java
+// compile the demo drivers
+javac -d ../Classes/SCCClasses -cp ../Classes/SCCClasses ../Demos/SCCMain.java
+
+// list available data
+ls ../../Data/GrfTxt
+
+// TESTS, APPS and DEMOS
+// Select Demos
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph01.txt ../../Data/GrfCmp/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph04.txt ../../Data/GrfCmp/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph05.txt ../../Data/GrfCmp/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph06.txt ../../Data/GrfCmp/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph07.txt ../../Data/GrfCmp/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph10.txt ../../Data/GrfCmp/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph11.txt ../../Data/GrfCmp/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dag01.txt ../../Data/GrfCmp/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dag02.txt ../../Data/GrfCmp/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraphonecycle.txt ../../Data/GrfCmp/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraphtwocycles.txt ../../Data/GrfCmp/
+
+**** To view the graphs on which you can run the java demo (available in Data/GrfTxt):
+cd Mathematica
+double-click on 1_ViewDigraphFromGrfFiles.nb
+Evaluate the notebook
+select an input from the INPUT menu to view more examples
+
+**** To view the graph and the results of running the Strong Components (available in Data/GrfCmp)
+cd Mathematica
+double-click on 2_ViewDigraphComponentsFromFiles.nb
+Evaluate the notebook
+select an input from the INPUT menu to view more examples
+
+

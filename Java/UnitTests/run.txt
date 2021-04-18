@@ -1,0 +1,79 @@
+// Must be in Portfolio/Java/UnitTests
+
+// To compile and run the SCC code:
+javac -d ../Classes/SCCClasses/ ../Src/SCC/*.java
+// compile the demo drivers
+javac -d ../Classes/SCCClasses -cp ../Classes/SCCClasses ../Demos/SCCMain.java
+
+// list available data
+ls ../../Data/GrfTxt
+
+// TESTS, APPS and DEMOS
+// Individual tests
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph01.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph02.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph03.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph04.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph05.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph06.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph07.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph10.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraph11.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dag01.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dag02.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraphmultiedge.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraphnocycles01.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraphnocycles02.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraphonecycle.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraphtwocycles.txt Output/
+java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/emptygraph.txt Output/
+
+
+// To compile and run the BFS Levels code:
+javac -d ../Classes/BFSClasses/ ../Src/BFS/*.java
+// compile the demo drivers
+javac -d ../Classes/BFSClasses -cp ../Classes/BFSClasses ../Demos/BFSMain.java
+
+// list available data
+ls ../../Data/GrfTxt
+
+// TESTS, APPS and DEMOS
+// Individual tests
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphconnected01.txt Output/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphconnected02.txt Output/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphconnected03.txt Output/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphconnected04.txt Output/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphconnected05.txt Output/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphconnected06.txt Output/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphonevertex.txt Output/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphtwovertices.txt Output/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphunconnected01.txt Output/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphunconnected02.txt Output/
+
+
+// To compile and run the Dijkstra's Algorithm code:
+javac -d ../Classes/DijkstraClasses/ ../Src/Dijkstra/*.java
+// compile the demo drivers
+javac -d ../Classes/DijkstraClasses -cp ../Classes/DijkstraClasses ../Demos/DijkstraMain.java
+
+// list available data
+ls ../../Data/GrfWTxt
+
+// TESTS, APPS and DEMOS
+// Individual tests
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dag01.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dag02.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/clrsexample.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph01.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph02.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph03.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph04.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph05.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph06.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph07.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph08.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphcycles01.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphmultiedge.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphnocycles01.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphnocycles02.txt Output/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphonevertex.txt Output/

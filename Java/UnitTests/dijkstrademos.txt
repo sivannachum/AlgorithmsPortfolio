@@ -1,0 +1,38 @@
+FOR THE DEMOS:
+
+**** To run the Java code for Dijkstra's Algorithm, as a demo:
+cd Java/UnitTests
+
+// To compile and run the Dijkstra's Algorithm code:
+javac -d ../Classes/DijkstraClasses/ ../Src/Dijkstra/*.java
+// compile the demo drivers
+javac -d ../Classes/DijkstraClasses -cp ../Classes/DijkstraClasses ../Demos/DijkstraMain.java
+
+// list available data
+ls ../../Data/GrfWTxt
+
+// TESTS, APPS and DEMOS
+// Note that Dijkstra's Algorithm is run from the first vertex every time
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dag01.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dag02.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/clrsexample.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph01.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph02.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph03.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph04.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph05.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph06.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph07.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraph08.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphcycles01.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphnocycles01.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphnocycles02.txt ../../Data/GrfWSpvTre/
+java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphonevertex.txt ../../Data/GrfWSpvTre/
+
+**** To view the graph and the results of running the Dijkstra's algorihtm (DijkstraMain) (available in Data/GrfWSpvTre/)
+cd Mathematica
+double-click on 4_ViewWeightedDigraphFromGrfFiles
+Evaluate the notebook
+select an input from the INPUT menu to view more examples
+
+

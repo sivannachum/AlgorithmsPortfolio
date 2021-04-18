@@ -1,0 +1,33 @@
+FOR THE DEMOS:
+
+**** To run the Java code for BFS Levels, as a demo:
+cd Java/UnitTests
+
+// To compile and run the BFS Levels code:
+javac -d ../Classes/BFSClasses/ ../Src/BFS/*.java
+// compile the demo drivers
+javac -d ../Classes/BFSClasses -cp ../Classes/BFSClasses ../Demos/BFSMain.java
+
+// list available data
+ls ../../Data/GrfTxt
+
+// TESTS, APPS and DEMOS
+// Note that BFS is run from the first vertex every time
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphconnected01.txt ../../Data/GrfLev/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphconnected02.txt ../../Data/GrfLev/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphconnected03.txt ../../Data/GrfLev/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphconnected04.txt ../../Data/GrfLev/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphconnected05.txt ../../Data/GrfLev/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphconnected06.txt ../../Data/GrfLev/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphonevertex.txt ../../Data/GrfLev/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphtwovertices.txt ../../Data/GrfLev/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphunconnected01.txt ../../Data/GrfLev/
+java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphunconnected02.txt ../../Data/GrfLev/
+
+**** To view the graph and the results of running the BFS levels code (BFSMain) (available in Data/GrfLev)
+cd Mathematica
+double-click on 3_ViewGraphLevelsFromFiles.nb
+Evaluate the notebook
+select an input from the INPUT menu to view more examples
+
+
