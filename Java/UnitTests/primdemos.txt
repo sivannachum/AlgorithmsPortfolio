@@ -28,7 +28,7 @@ select an input from the INPUT menu to view more examples
 
 **** To view the graph and the results of running the Prim's algorithm (PrimMain) (available in Data/GrfPTre/):
 cd Mathematica
-double-click on 7_ViewPrimOutput.nb
+double-click on 7_PrimOutput.nb
 Evaluate the notebook
 select an input from the INPUT menu to view more examples
 

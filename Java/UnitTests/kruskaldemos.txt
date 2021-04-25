@@ -27,7 +27,7 @@ select an input from the INPUT menu to view more examples
 
 **** To view the graph and the results of running the Kruskal's algorithm (KruskalMain) (available in Data/GrfKTre/):
 cd Mathematica
-double-click on 6_ViewKruskalOutput.nb
+double-click on 6_KruskalOutput.nb
 Evaluate the notebook
 select an input from the INPUT menu to view more examples
 
