@@ -24,9 +24,15 @@ java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphtwovertices.txt .
 java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphunconnected01.txt ../../Data/GrfLev/
 java -cp ../Classes/BFSClasses BFSMain ../../Data/GrfTxt/ugraphunconnected02.txt ../../Data/GrfLev/
 
+**** To view the graphs on which you can run the java demo (available in Data/GrfTxt):
+cd Mathematica
+double-click on 0_ViewGraphFromGrfFiles.nb
+Evaluate the notebook
+select an input from the INPUT menu to view more examples
+
 **** To view the graph and the results of running the BFS levels code (BFSMain) (available in Data/GrfLev)
 cd Mathematica
-double-click on 3_ViewGraphLevelsFromFiles.nb
+double-click on 3_BFSLevelsOutput.nb
 Evaluate the notebook
 select an input from the INPUT menu to view more examples
 

@@ -1,0 +1,35 @@
+FOR THE DEMOS:
+
+**** To run the Java code for the All Edges Path, as a demo:
+cd Java/UnitTests
+
+// To compile and run the All Edges Path code:
+javac -d ../Classes/AllEdgesPathClasses/ ../Src/AllEdgesPath/*.java
+// compile the demo drivers
+javac -d ../Classes/AllEdgesPathClasses -cp ../Classes/AllEdgesPathClasses ../Demos/AllEdgesPathMain.java
+
+// list available data
+ls ../../Data/GrfTxt
+
+// TESTS, APPS and DEMOS
+// Note that the AllEdgesPath can only be found on a connected graph
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected01.txt ../../Data/GrfAep/
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected02.txt ../../Data/GrfAep/
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected03.txt ../../Data/GrfAep/
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected04.txt ../../Data/GrfAep/
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected05.txt ../../Data/GrfAep/
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected06.txt ../../Data/GrfAep/
+
+**** To view the graphs on which you can run the java demo (available in Data/GrfTxt):
+cd Mathematica
+double-click on 0_ViewGraphFromGrfFiles.nb
+Evaluate the notebook
+select an input from the INPUT menu to view more examples
+
+**** To view the graph and the results of running the All Edges Path (AllEdgesPathMain) (available in Data/GrfAep)
+cd Mathematica
+double-click on 5_AllEdgesPathOutput.nb
+Evaluate the notebook
+select an input from the INPUT menu to view more examples
+
+

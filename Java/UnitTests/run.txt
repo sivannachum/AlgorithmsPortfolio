@@ -29,6 +29,25 @@ java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/dgraphtwocycles.txt Out
 java -cp ../Classes/SCCClasses SCCMain ../../Data/GrfTxt/emptygraph.txt Output/
 
 
+// To compile and run the All Edges Path code:
+javac -d ../Classes/AllEdgesPathClasses/ ../Src/AllEdgesPath/*.java
+// compile the demo drivers
+javac -d ../Classes/AllEdgesPathClasses -cp ../Classes/AllEdgesPathClasses ../Demos/AllEdgesPathMain.java
+
+// list available data
+ls ../../Data/GrfTxt
+
+// TESTS, APPS and DEMOS
+// Note that the AllEdgesPath can only be found on a connected graph
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected01.txt Output/
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected02.txt Output/
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected03.txt Output/
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected04.txt Output/
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected05.txt Output/
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected06.txt Output/
+java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/emptygraph.txt Output/
+
+
 // To compile and run the BFS Levels code:
 javac -d ../Classes/BFSClasses/ ../Src/BFS/*.java
 // compile the demo drivers
@@ -77,3 +96,42 @@ java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphmultie
 java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphnocycles01.txt Output/
 java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphnocycles02.txt Output/
 java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphonevertex.txt Output/
+
+
+// To compile and run the Kruskal code:
+javac -d ../Classes/KruskalClasses/ ../Src/Kruskal/*.java
+// compile the demo drivers
+javac -d ../Classes/KruskalClasses -cp ../Classes/KruskalClasses ../Demos/KruskalMain.java
+
+// list available data
+ls ../../Data/GrfWTxt
+
+// TESTS, APPS and DEMOS
+// Individual tests
+java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/ugraphconnected01.txt Output/
+java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/ugraphconnected02.txt Output/
+java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/ugraphconnected03.txt Output/
+java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/ugraphconnected04.txt Output/
+java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/ugraphconnected05.txt Output/
+java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/ugraphconnected06.txt Output/
+java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/clrsexample3.txt Output/
+
+
+// To compile and run the Prim code:
+javac -d ../Classes/PrimClasses/ ../Src/Prim/*.java
+// compile the demo drivers
+javac -d ../Classes/PrimClasses -cp ../Classes/PrimClasses ../Demos/PrimMain.java
+
+// list available data
+ls ../../Data/GrfWTxt
+
+// TESTS, APPS and DEMOS
+// Individual tests
+// Note that Prim's algorithm is run from vertex 1 every time
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected01.txt Output/
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected02.txt Output/
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected03.txt Output/
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected04.txt Output/
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected05.txt Output/
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected06.txt Output/
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/clrsexample3.txt Output/

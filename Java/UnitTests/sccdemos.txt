@@ -31,9 +31,9 @@ double-click on 1_ViewDigraphFromGrfFiles.nb
 Evaluate the notebook
 select an input from the INPUT menu to view more examples
 
-**** To view the graph and the results of running the Strong Components (available in Data/GrfCmp)
+**** To view the graph and the results of running the Strong Components (SCCMain) (available in Data/GrfCmp)
 cd Mathematica
-double-click on 2_ViewDigraphComponentsFromFiles.nb
+double-click on 2_SCCOutput.nb
 Evaluate the notebook
 select an input from the INPUT menu to view more examples
 

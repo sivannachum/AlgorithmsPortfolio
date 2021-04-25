@@ -1,0 +1,34 @@
+FOR THE DEMOS:
+// Must be in Homework8/Java/UnitTests
+
+// To compile and run the Prim code:
+javac -d ../Classes/PrimClasses/ ../Src/Prim/*.java
+// compile the demo drivers
+javac -d ../Classes/PrimClasses -cp ../Classes/PrimClasses ../Demos/PrimMain.java
+
+// list available data
+ls ../../Data/GrfWTxt
+
+// TESTS, APPS and DEMOS
+// Individual tests
+// Note that Prim's algorithm is run from vertex 1 every time
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected01.txt ../../Data/GrfPTre/
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected02.txt ../../Data/GrfPTre/
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected03.txt ../../Data/GrfPTre/
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected04.txt ../../Data/GrfPTre/
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected05.txt ../../Data/GrfPTre/
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected06.txt ../../Data/GrfPTre/
+java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/clrsexample3.txt ../../Data/GrfPTre/
+
+**** To view the graphs on which you can run the java demo (available in Data/GrfWTxt):
+cd Mathematica
+double-click on 9_ViewWeightedGraphFromGrfFiles.nb
+Evaluate the notebook
+select an input from the INPUT menu to view more examples
+
+**** To view the graph and the results of running the Prim's algorithm (PrimMain) (available in Data/GrfPTre/):
+cd Mathematica
+double-click on 7_ViewPrimOutput.nb
+Evaluate the notebook
+select an input from the INPUT menu to view more examples
+

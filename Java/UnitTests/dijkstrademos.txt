@@ -29,9 +29,15 @@ java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphnocycl
 java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphnocycles02.txt ../../Data/GrfWSpvTre/
 java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dgraphonevertex.txt ../../Data/GrfWSpvTre/
 
-**** To view the graph and the results of running the Dijkstra's algorihtm (DijkstraMain) (available in Data/GrfWSpvTre/)
+**** To view the graphs on which you can run the java demo (available in Data/GrfWTxt):
 cd Mathematica
-double-click on 4_ViewWeightedDigraphFromGrfFiles
+double-click on 8_ViewWeightedDigraphFromGrfFiles.nb
+Evaluate the notebook
+select an input from the INPUT menu to view more examples
+
+**** To view the graph and the results of running the Dijkstra's algorithm (DijkstraMain) (available in Data/GrfWSpvTre/)
+cd Mathematica
+double-click on 4_DijkstraSingleSourceShortestPathsOutput
 Evaluate the notebook
 select an input from the INPUT menu to view more examples
 
