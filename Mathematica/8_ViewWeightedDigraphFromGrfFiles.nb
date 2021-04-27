@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     74192,       1622]
-NotebookOptionsPosition[     69196,       1526]
-NotebookOutlinePosition[     69708,       1543]
-CellTagsIndexPosition[     69665,       1540]
+NotebookDataLength[     73623,       1604]
+NotebookOptionsPosition[     68639,       1508]
+NotebookOutlinePosition[     69139,       1525]
+CellTagsIndexPosition[     69096,       1522]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -121,7 +121,7 @@ Cell[BoxData[
    3.826302403440764*^9}, {3.827071248013597*^9, 3.827071256986269*^9}, {
    3.827525433300349*^9, 3.8275254580658417`*^9}},
  CellLabel->
-  "In[255]:=",ExpressionUUID->"6da5ff49-a2fa-4570-8927-0397e2df9b38"]
+  "In[157]:=",ExpressionUUID->"6da5ff49-a2fa-4570-8927-0397e2df9b38"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -144,7 +144,7 @@ Cell[BoxData[
    3.823111252408289*^9, 3.823111367623926*^9}, {3.827065286561544*^9, 
    3.827065311325268*^9}, 3.8275254754152527`*^9, 3.8275272765080957`*^9},
  CellLabel->
-  "In[256]:=",ExpressionUUID->"aad4f1a0-dc70-4327-990f-f89aa458d9e0"]
+  "In[158]:=",ExpressionUUID->"aad4f1a0-dc70-4327-990f-f89aa458d9e0"]
 }, Open  ]]
 }, Closed]],
 
@@ -183,7 +183,7 @@ Cell[BoxData[{
   3.823111583199767*^9}, {3.827070850543044*^9, 3.8270708595347958`*^9}, {
   3.8270709588870373`*^9, 3.827070964376401*^9}},
  CellLabel->
-  "In[257]:=",ExpressionUUID->"05975bca-1669-4a9f-a785-6a7907047ede"]
+  "In[159]:=",ExpressionUUID->"05975bca-1669-4a9f-a785-6a7907047ede"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -201,7 +201,7 @@ Cell[BoxData[{
   RowBox[{"PTSIZE", " ", "=", " ", "0.05"}], ";"}]}], "Input",
  CellChangeTimes->{{3.823108861178496*^9, 3.8231088952932253`*^9}},
  CellLabel->
-  "In[259]:=",ExpressionUUID->"995486e8-3722-49df-857d-90a38cd915aa"],
+  "In[161]:=",ExpressionUUID->"995486e8-3722-49df-857d-90a38cd915aa"],
 
 Cell[BoxData[{
  RowBox[{
@@ -212,7 +212,7 @@ Cell[BoxData[{
    3.823109352864297*^9, {3.823109388730261*^9, 3.823109389151333*^9}, {
    3.82588609351169*^9, 3.825886105580385*^9}},
  CellLabel->
-  "In[261]:=",ExpressionUUID->"63b42f9d-0762-4b71-9f77-d4ab1ffc4432"],
+  "In[163]:=",ExpressionUUID->"63b42f9d-0762-4b71-9f77-d4ab1ffc4432"],
 
 Cell[BoxData[{
  RowBox[{
@@ -222,7 +222,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.8275261626756*^9, 3.8275261733983803`*^9}, {
   3.827526253908491*^9, 3.827526254799411*^9}},
  CellLabel->
-  "In[263]:=",ExpressionUUID->"5d98f623-99b3-498e-aa0c-760abf6ddd20"]
+  "In[165]:=",ExpressionUUID->"5d98f623-99b3-498e-aa0c-760abf6ddd20"]
 }, Open  ]]
 }, Closed]],
 
@@ -253,7 +253,7 @@ Cell[BoxData[
   3.536714587943158*^9, 3.536714596501671*^9}, {3.823108924809785*^9, 
   3.8231089283618307`*^9}},
  CellLabel->
-  "In[265]:=",ExpressionUUID->"74645059-a606-405c-9d7c-63ef6f752e95"],
+  "In[167]:=",ExpressionUUID->"74645059-a606-405c-9d7c-63ef6f752e95"],
 
 Cell[BoxData[
  RowBox[{
@@ -272,7 +272,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.536714515552498*^9, 3.536714580966085*^9}, {
   3.827526311734888*^9, 3.827526319492412*^9}},
  CellLabel->
-  "In[266]:=",ExpressionUUID->"4d68635e-48bf-4c88-a881-03b13c413ae0"],
+  "In[168]:=",ExpressionUUID->"4d68635e-48bf-4c88-a881-03b13c413ae0"],
 
 Cell[BoxData[
  RowBox[{
@@ -291,7 +291,7 @@ Cell[BoxData[
    3.674294558291803*^9}, {3.8231089349143953`*^9, 3.8231089440077877`*^9}, {
    3.825886045924363*^9, 3.825886051993367*^9}, 3.8270653506928673`*^9},
  CellLabel->
-  "In[267]:=",ExpressionUUID->"a81108db-e98e-4e9c-8d23-d18ed187b4ba"],
+  "In[169]:=",ExpressionUUID->"a81108db-e98e-4e9c-8d23-d18ed187b4ba"],
 
 Cell[BoxData[
  RowBox[{
@@ -328,7 +328,7 @@ Cell[BoxData[
   3.8275259964588118`*^9, 3.827526152939454*^9}, {3.827526185124505*^9, 
   3.827526186725473*^9}},
  CellLabel->
-  "In[268]:=",ExpressionUUID->"99e00526-ee0e-43d1-ae57-48965f0bc3eb"],
+  "In[170]:=",ExpressionUUID->"99e00526-ee0e-43d1-ae57-48965f0bc3eb"],
 
 Cell[BoxData[
  RowBox[{
@@ -343,7 +343,7 @@ Cell[BoxData[
   ";"}]], "Input",
  CellChangeTimes->{{3.827525958010317*^9, 3.827525985204061*^9}},
  CellLabel->
-  "In[269]:=",ExpressionUUID->"62790689-3361-4a5c-a1c6-54f27ca9ef21"]
+  "In[171]:=",ExpressionUUID->"62790689-3361-4a5c-a1c6-54f27ca9ef21"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -427,7 +427,7 @@ Cell[BoxData[
    3.8275818456510983`*^9}, {3.828093318661542*^9, 3.8280933363832426`*^9}, {
    3.8280935449108133`*^9, 3.8280935597241516`*^9}},
  CellLabel->
-  "In[270]:=",ExpressionUUID->"c5e85ec3-81d7-4b26-8a51-8f2b892fcb6e"]
+  "In[172]:=",ExpressionUUID->"c5e85ec3-81d7-4b26-8a51-8f2b892fcb6e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -458,7 +458,7 @@ Cell[BoxData[
    3.828093626014469*^9}, {3.828093670090589*^9, 3.828093683611413*^9}, {
    3.828093907457631*^9, 3.8280939121032557`*^9}},
  CellLabel->
-  "In[271]:=",ExpressionUUID->"45c9ab7d-63d5-4bef-96bd-ede6e6311886"]
+  "In[173]:=",ExpressionUUID->"45c9ab7d-63d5-4bef-96bd-ede6e6311886"]
 }, Open  ]]
 }, Closed]],
 
@@ -675,18 +675,7 @@ Cell[BoxData[
                     RowBox[{"\"\<EDGES WEIGHTS\>\"", ",", 
                     RowBox[{"Checkbox", "[", 
                     RowBox[{"Dynamic", "[", "showEdgeLabs", "]"}], "]"}]}], 
-                    "}"}], ",", "\[IndentingNewLine]", 
-                   RowBox[{"{", 
-                    RowBox[{
-                    RowBox[{"Style", "[", 
-                    RowBox[{
-                    "\"\<\!\(\*StyleBox[\"SHORTEST\",FontColor->RGBColor[1, \
-0, 0]]\)\>\"", ",", "11", ",", "Bold"}], "]"}], ",", 
-                    RowBox[{"Style", "[", 
-                    RowBox[{
-                    "\"\<\!\(\*StyleBox[\"PATHS\",FontColor->RGBColor[1, 0, \
-0]]\)\>\"", ",", "11", ",", "Bold"}], "]"}]}], "}"}]}], "\[IndentingNewLine]",
-                   "}"}], ",", 
+                    "}"}]}], "\[IndentingNewLine]", "}"}], ",", 
                  RowBox[{"Dividers", "\[Rule]", 
                   RowBox[{"{", "None", "}"}]}], ",", 
                  RowBox[{"Alignment", "\[Rule]", "Left"}]}], "]"}]}], 
@@ -1120,8 +1109,8 @@ Cell[BoxData[
    3.827581020722118*^9}, {3.827581218428732*^9, 3.8275813889152184`*^9}, {
    3.827581529783578*^9, 3.827581604289566*^9}, {3.8275817863327103`*^9, 
    3.8275818138832617`*^9}, {3.828093368051484*^9, 3.828093488811569*^9}, 
-   3.828093617451593*^9, 3.828093649203992*^9},
- CellLabel->"In[272]:=",
+   3.828093617451593*^9, 3.828093649203992*^9, 3.8285275858346443`*^9},
+ CellLabel->"In[174]:=",
  CellID->248410732,ExpressionUUID->"a9d91e9b-1752-4f27-8bb9-a268b1f9aa4d"]
 }, Closed]],
 
@@ -1155,7 +1144,7 @@ Cell[BoxData[
    3.82752553234147*^9, 3.8275255822237387`*^9, 3.827580065778379*^9, {
    3.8280938763128166`*^9, 3.828093876778582*^9}},
  CellLabel->
-  "In[273]:=",ExpressionUUID->"0cac1c75-eec1-4fc5-b0b0-5d2ffb83f93d"]
+  "In[175]:=",ExpressionUUID->"0cac1c75-eec1-4fc5-b0b0-5d2ffb83f93d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1191,7 +1180,7 @@ Cell[BoxData[{
    3.827525773778351*^9, 3.8275257814118223`*^9}, {3.827580091159864*^9, 
    3.8275801128447733`*^9}, 3.8280938708032956`*^9},
  CellLabel->
-  "In[274]:=",ExpressionUUID->"5029ffa1-2c51-42fe-bef8-b2c156860792"]
+  "In[176]:=",ExpressionUUID->"5029ffa1-2c51-42fe-bef8-b2c156860792"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1221,7 +1210,7 @@ Cell[BoxData[
    3.827525478861348*^9, 3.827525497223454*^9}, 3.827525607735506*^9, 
    3.82752727808885*^9, 3.827527730372859*^9},
  CellLabel->
-  "In[277]:=",ExpressionUUID->"aaf49bd7-cc38-40a8-9e60-1f2eb0fcaf1d"],
+  "In[179]:=",ExpressionUUID->"aaf49bd7-cc38-40a8-9e60-1f2eb0fcaf1d"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -1283,9 +1272,10 @@ Cell[BoxData[
    3.827581352512251*^9, 3.827581395246375*^9}, {3.8275815323679*^9, 
    3.827581549381752*^9}, 3.827581579614637*^9, 3.827581753238275*^9, {
    3.8275817947870817`*^9, 3.827581815463228*^9}, 3.8275818475818167`*^9, 
-   3.8275819439829893`*^9, 3.8280938801563826`*^9, 3.828093915250785*^9},
+   3.8275819439829893`*^9, 3.8280938801563826`*^9, 3.828093915250785*^9, {
+   3.828527567557439*^9, 3.8285275897469177`*^9}},
  CellLabel->
-  "Out[277]=",ExpressionUUID->"2b5b79e7-1309-49da-9630-7fa0a322c953"]
+  "Out[179]=",ExpressionUUID->"ab43e416-edbc-46f9-84c0-4b496ff1edb9"]
 }, Open  ]]
 }, Open  ]]
 }, Closed]],
@@ -1309,36 +1299,33 @@ Cell[BoxData[
    3.827580135068411*^9, 3.827580139628276*^9}, {3.827580185666545*^9, 
    3.827580187509457*^9}, 3.828093474946457*^9},
  CellLabel->
-  "In[278]:=",ExpressionUUID->"590a4063-4537-4721-a127-ad1b09420bd7"],
+  "In[180]:=",ExpressionUUID->"590a4063-4537-4721-a127-ad1b09420bd7"],
 
 Cell[BoxData[
  DynamicModuleBox[{$CellContext`data$$ = {{{{0.1, 0.64}, {0.27, 0.47}, {0.37, 
-    0.97}, {0.6, 0.78}, {0.66, 
-    0.39}}, {{{1, 2}, 10}, {{1, 3}, 5}, {{2, 3}, 2}, {{2, 4}, 1}, {{3, 2}, 
-      3}, {{3, 4}, 9}, {{3, 5}, 2}, {{4, 5}, 4}, {{5, 4}, 6}, {{5, 1}, 
-      7}}}}, $CellContext`opts$$ = {{
+    0.97}, {0.6, 0.78}, {0.66, 0.39}, {0.1, 
+    0.17}}, {{{1, 2}, 1}, {{3, 1}, 3}, {{3, 4}, 2}, {{4, 5}, 4}, {{5, 2}, 
+      1}, {{1, 6}, 5}, {{6, 5}, 2}}}}, $CellContext`opts$$ = {{
    True, True, True, 
-    True}}, $CellContext`wGraph$$, $CellContext`wEdges$$ = {{{1, 2}, 10}, {{1,
-     3}, 5}, {{2, 3}, 2}, {{2, 4}, 1}, {{3, 2}, 3}, {{3, 4}, 9}, {{3, 5}, 
-    2}, {{4, 5}, 4}, {{5, 4}, 6}, {{5, 1}, 
-    7}}, $CellContext`inputFolderPath$$ = 
+    True}}, $CellContext`wGraph$$, $CellContext`wEdges$$ = {{{1, 2}, 1}, {{3, 
+    1}, 3}, {{3, 4}, 2}, {{4, 5}, 4}, {{5, 2}, 1}, {{1, 6}, 5}, {{6, 5}, 
+    2}}, $CellContext`inputFolderPath$$ = 
   "C:\\Users\\sivan\\Documents\\College \
-Classes\\CSC253\\Week10\\Homework8\\FloydWarshall\\Mathematica\\../Data/\
-GrfWTxt/", $CellContext`inputFileName$$ = 
-  "clrsexample", $CellContext`inputFileNames$$ = {
-  "clrsexample", "dag01", "dag02", "dgraph01", "dgraph02", "dgraph03", 
-   "dgraph04", "dgraph05", "dgraph06", "dgraph07", "dgraph08", 
-   "dgraphcycles01", "dgraphmultiedge", "dgraphnocycles01", 
-   "dgraphnocycles02", "dgraphonevertex"}, $CellContext`grfFilePath$$ = 
-  "C:\\Users\\sivan\\Documents\\College \
-Classes\\CSC253\\Week10\\Homework8\\FloydWarshall\\Mathematica\\..\\Data\\\
-GrfWTxt\\clrsexample.grf", $CellContext`showVerts$$ = 
-  True, $CellContext`showVertIds$$ = True, $CellContext`showEdges$$ = 
+Classes\\CSC253\\Portfolio\\Mathematica\\../Data/GrfWTxt/", \
+$CellContext`inputFileName$$ = "dag01", $CellContext`inputFileNames$$ = {
+  "clrsexample2", "clrsexample3", "clrsexample", "dag01", "dag02", "dgraph01",
+    "dgraph02", "dgraph03", "dgraph04", "dgraph05", "dgraph06", "dgraph07", 
+   "dgraph08", "dgraphcycles01", "dgraphmultiedge", "dgraphnocycles01", 
+   "dgraphnocycles02", "dgraphonevertex", "ugraphconnected01", 
+   "ugraphconnected02", "ugraphconnected03", "ugraphconnected04", 
+   "ugraphconnected05", 
+   "ugraphconnected06"}, $CellContext`grfFilePath$$, $CellContext`showVerts$$ \
+= True, $CellContext`showVertIds$$ = True, $CellContext`showEdges$$ = 
   True, $CellContext`showEdgeLabs$$ = True, Null$$}, 
   TagBox[
    StyleBox[
     DynamicModuleBox[{$CellContext`pts$$ = {{0.1, 0.64}, {0.27, 0.47}, {0.37, 
-     0.97}, {0.6, 0.78}, {0.66, 0.39}}, Typeset`show$$ = True, 
+     0.97}, {0.6, 0.78}, {0.66, 0.39}, {0.1, 0.17}}, Typeset`show$$ = True, 
      Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
      Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
      "\"untitled\"", Typeset`specs$$ = {{{
@@ -1365,14 +1352,8 @@ GrfWTxt\\clrsexample.grf", $CellContext`showVerts$$ =
                Checkbox[
                 Dynamic[$CellContext`showEdges$$]]}, {"EDGES WEIGHTS", 
                Checkbox[
-                Dynamic[$CellContext`showEdgeLabs$$]]}, {
-               Style[
-               "\!\(\*StyleBox[\"SHORTEST\",FontColor->RGBColor[1, 0, 0]]\)", 
-                11, Bold], 
-               Style[
-               "\!\(\*StyleBox[\"PATHS\",FontColor->RGBColor[1, 0, 0]]\)", 11,
-                 Bold]}}, Dividers -> {None}, Alignment -> Left]}, True, 
-           ImageMargins -> 5], 
+                Dynamic[$CellContext`showEdgeLabs$$]]}}, Dividers -> {None}, 
+             Alignment -> Left]}, True, ImageMargins -> 5], 
           OpenerView[{
             Style["RESET", 12, Bold], 
             Row[{
@@ -1403,18 +1384,21 @@ GrfWTxt\\clrsexample.grf", $CellContext`showVerts$$ =
             Row[{
               PopupMenu[
                Dynamic[$CellContext`inputFileName$$], {
-               "clrsexample", "dag01", "dag02", "dgraph01", "dgraph02", 
-                "dgraph03", "dgraph04", "dgraph05", "dgraph06", "dgraph07", 
-                "dgraph08", "dgraphcycles01", "dgraphmultiedge", 
-                "dgraphnocycles01", "dgraphnocycles02", "dgraphonevertex"}], 
+               "clrsexample2", "clrsexample3", "clrsexample", "dag01", 
+                "dag02", "dgraph01", "dgraph02", "dgraph03", "dgraph04", 
+                "dgraph05", "dgraph06", "dgraph07", "dgraph08", 
+                "dgraphcycles01", "dgraphmultiedge", "dgraphnocycles01", 
+                "dgraphnocycles02", "dgraphonevertex", "ugraphconnected01", 
+                "ugraphconnected02", "ugraphconnected03", "ugraphconnected04",
+                 "ugraphconnected05", "ugraphconnected06"}], 
               Button[
               "READ GRF", $CellContext`grfFilePath$$ = \
 $CellContext`makeFullGrfFileName[$CellContext`inputFolderPath$$, \
 $CellContext`inputFileName$$]; {$CellContext`pts$$, $CellContext`wEdges$$} = \
 $CellContext`readWGraphFromMathematicaWGrfFile[$CellContext`grfFilePath$$]; 
                Null$$]}]}]}]], Manipulate`Dump`ThisIsNotAControl}}, 
-     Typeset`size$$ = {587.5999999999999, {42.6, 12.}}, Typeset`update$$ = 0, 
-     Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+     Typeset`size$$ = {400., {197., 202.99999999999994`}}, Typeset`update$$ = 
+     0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
      DynamicBox[Manipulate`ManipulateBoxes[
       1, StandardForm, 
        "Variables" :> {$CellContext`pts$$ = {{0.1, 0.64}, {0.27, 0.47}, {0.37,
@@ -1454,14 +1438,8 @@ $CellContext`opts$$]),
                 Checkbox[
                  Dynamic[$CellContext`showEdges$$]]}, {"EDGES WEIGHTS", 
                 Checkbox[
-                 Dynamic[$CellContext`showEdgeLabs$$]]}, {
-                Style[
-                "\!\(\*StyleBox[\"SHORTEST\",FontColor->RGBColor[1, 0, 0]]\)",
-                  11, Bold], 
-                Style[
-                "\!\(\*StyleBox[\"PATHS\",FontColor->RGBColor[1, 0, 0]]\)", 
-                 11, Bold]}}, Dividers -> {None}, Alignment -> Left]}, True, 
-            ImageMargins -> 5], 
+                 Dynamic[$CellContext`showEdgeLabs$$]]}}, Dividers -> {None}, 
+              Alignment -> Left]}, True, ImageMargins -> 5], 
            OpenerView[{
              Style["RESET", 12, Bold], 
              Row[{
@@ -1491,11 +1469,14 @@ $CellContext`opts$$]),
              Row[{
                PopupMenu[
                 Dynamic[$CellContext`inputFileName$$], {
-                "clrsexample", "dag01", "dag02", "dgraph01", "dgraph02", 
-                 "dgraph03", "dgraph04", "dgraph05", "dgraph06", "dgraph07", 
-                 "dgraph08", "dgraphcycles01", "dgraphmultiedge", 
-                 "dgraphnocycles01", "dgraphnocycles02", "dgraphonevertex"}], 
-               
+                "clrsexample2", "clrsexample3", "clrsexample", "dag01", 
+                 "dag02", "dgraph01", "dgraph02", "dgraph03", "dgraph04", 
+                 "dgraph05", "dgraph06", "dgraph07", "dgraph08", 
+                 "dgraphcycles01", "dgraphmultiedge", "dgraphnocycles01", 
+                 "dgraphnocycles02", "dgraphonevertex", "ugraphconnected01", 
+                 "ugraphconnected02", "ugraphconnected03", 
+                 "ugraphconnected04", "ugraphconnected05", 
+                 "ugraphconnected06"}], 
                Button[
                "READ GRF", $CellContext`grfFilePath$$ = \
 $CellContext`makeFullGrfFileName[$CellContext`inputFolderPath$$, \
@@ -1503,7 +1484,7 @@ $CellContext`inputFileName$$]; {$CellContext`pts$$, $CellContext`wEdges$$} = \
 $CellContext`readWGraphFromMathematicaWGrfFile[$CellContext`grfFilePath$$]; 
                 Null$$]}]}]}]}, "Options" :> {ControlPlacement -> Right}, 
        "DefaultOptions" :> {}],
-      ImageSizeCache->{863., {123., 129.}},
+      ImageSizeCache->{556., {230., 236.}},
       SingleEvaluation->True],
      Deinitialization:>None,
      DynamicModuleValues:>{},
@@ -1517,15 +1498,16 @@ $CellContext`readWGraphFromMathematicaWGrfFile[$CellContext`grfFilePath$$];
   DynamicModuleValues:>{}]], "Output",
  CellChangeTimes->{
   3.828093724153554*^9, {3.8280938802181797`*^9, 3.8280938825746713`*^9}, {
-   3.8280939153076277`*^9, 3.8280939208199673`*^9}},
+   3.8280939153076277`*^9, 3.8280939208199673`*^9}, {3.82852756764022*^9, 
+   3.8285275898101835`*^9}},
  CellLabel->
-  "Out[278]=",ExpressionUUID->"ea8f5ee4-d7cd-499f-8f78-2452d43ae4ae"]
+  "Out[180]=",ExpressionUUID->"0e672152-84a3-4fcb-845b-375cc5c23cc7"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{995.4, 574.1999999999999},
-WindowMargins->{{Automatic, 4.7999999999999545`}, {Automatic, 0}},
+WindowSize->{995.4, 573.6},
+WindowMargins->{{Automatic, 52.799999999999955`}, {Automatic, 0}},
 PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
 FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
 StyleDefinitions->"Default.nb",
@@ -1595,32 +1577,32 @@ Cell[16577, 440, 956, 20, 28, "Input",ExpressionUUID->"45c9ab7d-63d5-4bef-96bd-e
 }, Closed]],
 Cell[CellGroupData[{
 Cell[17582, 466, 155, 3, 53, "Section",ExpressionUUID->"b997063b-3943-4695-b376-94b2d29d7477"],
-Cell[17740, 471, 33934, 653, 1511, "Input",ExpressionUUID->"a9d91e9b-1752-4f27-8bb9-a268b1f9aa4d",
+Cell[17740, 471, 33440, 642, 1492, "Input",ExpressionUUID->"a9d91e9b-1752-4f27-8bb9-a268b1f9aa4d",
  CellID->248410732]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[51711, 1129, 242, 4, 53, "Section",ExpressionUUID->"39b77106-608e-4725-b7f4-e0b90da91046"],
+Cell[51217, 1118, 242, 4, 53, "Section",ExpressionUUID->"39b77106-608e-4725-b7f4-e0b90da91046"],
 Cell[CellGroupData[{
-Cell[51978, 1137, 260, 4, 54, "Subsection",ExpressionUUID->"6fdfc427-f1fb-4c42-9593-91e7f06604f2"],
-Cell[52241, 1143, 689, 14, 28, "Input",ExpressionUUID->"0cac1c75-eec1-4fc5-b0b0-5d2ffb83f93d"]
+Cell[51484, 1126, 260, 4, 54, "Subsection",ExpressionUUID->"6fdfc427-f1fb-4c42-9593-91e7f06604f2"],
+Cell[51747, 1132, 689, 14, 28, "Input",ExpressionUUID->"0cac1c75-eec1-4fc5-b0b0-5d2ffb83f93d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[52967, 1162, 183, 3, 54, "Subsection",ExpressionUUID->"f7671e2a-03cc-4920-8404-c40a36b4a19c"],
-Cell[53153, 1167, 1475, 26, 68, "Input",ExpressionUUID->"5029ffa1-2c51-42fe-bef8-b2c156860792"]
+Cell[52473, 1151, 183, 3, 54, "Subsection",ExpressionUUID->"f7671e2a-03cc-4920-8404-c40a36b4a19c"],
+Cell[52659, 1156, 1475, 26, 68, "Input",ExpressionUUID->"5029ffa1-2c51-42fe-bef8-b2c156860792"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[54665, 1198, 260, 4, 54, "Subsection",ExpressionUUID->"115806a6-bdf1-4191-b02c-060b92b68526"],
+Cell[54171, 1187, 260, 4, 54, "Subsection",ExpressionUUID->"115806a6-bdf1-4191-b02c-060b92b68526"],
 Cell[CellGroupData[{
-Cell[54950, 1206, 991, 17, 28, "Input",ExpressionUUID->"aaf49bd7-cc38-40a8-9e60-1f2eb0fcaf1d"],
-Cell[55944, 1225, 2363, 62, 53, "Output",ExpressionUUID->"2b5b79e7-1309-49da-9630-7fa0a322c953"]
+Cell[54456, 1195, 991, 17, 28, "Input",ExpressionUUID->"aaf49bd7-cc38-40a8-9e60-1f2eb0fcaf1d"],
+Cell[55450, 1214, 2415, 63, 70, "Output",ExpressionUUID->"ab43e416-edbc-46f9-84c0-4b496ff1edb9"]
 }, Open  ]]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[58368, 1294, 154, 3, 53, "Section",ExpressionUUID->"14847f47-0598-4181-917e-3a92c7a6971b"],
+Cell[57926, 1284, 154, 3, 53, "Section",ExpressionUUID->"14847f47-0598-4181-917e-3a92c7a6971b"],
 Cell[CellGroupData[{
-Cell[58547, 1301, 635, 10, 28, "Input",ExpressionUUID->"590a4063-4537-4721-a127-ad1b09420bd7"],
-Cell[59185, 1313, 9971, 208, 271, "Output",ExpressionUUID->"ea8f5ee4-d7cd-499f-8f78-2452d43ae4ae"]
+Cell[58105, 1291, 635, 10, 28, "Input",ExpressionUUID->"590a4063-4537-4721-a127-ad1b09420bd7"],
+Cell[58743, 1303, 9856, 200, 485, "Output",ExpressionUUID->"0e672152-84a3-4fcb-845b-375cc5c23cc7"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
