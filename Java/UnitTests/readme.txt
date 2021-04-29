@@ -11,6 +11,7 @@ Mathematica // contains Mathematica visualizations for the Java code
 
 **** Organization of "Java" folder:
 Classes // contains Java classes after compilation via command line
+Demos // contains main programs for various Java applications, see below for details.
 Src // contains source code for various Java applications, see below for details
 UnitTests // contains instructions for running code and viewing demos
 
@@ -40,7 +41,7 @@ SCC folder:
 DGraphEdgeList and DGraphAdjList directed graph representations. 
 The DGraphEdgeList can be initialized by reading a graph from a file and can be converted to a DGraphAdjList. 
 The DGraphAdjList has functionality to figure out the strongly connected components of the graph.
-There is also a class called SCCMain which can be run to interact with the graph classes.
+There is also a class called SCCMain in the Demos folder which can be run to interact with the graph classes.
 It requires the name of a file from which to read a graph and a folder path to which to write the strongly connected components.
 
 BFS folder:
@@ -62,20 +63,22 @@ GraphEdgeList and GraphAdjList undirected graph representations.
 The GraphEdgeList can be initialized by reading a graph from a file and can be converted to a GraphAdjList. 
 The GraphAdjList has functionality to figure out a path through the graph that traverses each edge exactly once in each direction.
 This is to solve the problem of efficient garbage collection. Note that this problem assumes the graph is connected.
-There is also a class called AllEdgesPathMain which can be run to interact with the graph classes.
+There is also a class called AllEdgesPathMain in the Demos folder which can be run to interact with the graph classes.
 It requires the name of a file from which to read a graph and 
 the name of a file to which to write the path that traverses each edge exactly once in each direction.
 
-Kruskal folder:
+Kruskal folder (extra credit):
 GraphEdgeList undirected weighted graph representation. 
 The GraphEdgeList can be initialized by reading a graph from a file and
 has functionality to figure out the minimum spanning tree using Kruskal's algorithm.
+Note that this problem assumes the graph is connected.
 There is also a class called KruskalMain in the Demos folder which can be run to interact with the graph class.
 It requires the name of a file from which to read a graph and a folder path to which to write the minimum spanning tree edges.
 
-Prim folder:
+Prim folder (extra credit):
 GraphEdgeList and GraphAdjList undirected weighted graph representations. 
 The GraphEdgeList can be initialized by reading a graph from a file and can be converted to a GraphAdjList. 
 The GraphAdjList has functionality to figure out the minimum spanning tree using Prim's algorithm.
+Note that this problem assumes the graph is connected.
 There is also a class called PrimMain in the Demos folder which can be run to interact with the graph classes.
 It requires the name of a file from which to read a graph and a folder path to which to write the minimum spanning tree edges.

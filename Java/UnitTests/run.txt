@@ -45,7 +45,6 @@ java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugrap
 java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected04.txt Output/
 java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected05.txt Output/
 java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/ugraphconnected06.txt Output/
-java -cp ../Classes/AllEdgesPathClasses AllEdgesPathMain ../../Data/GrfTxt/emptygraph.txt Output/
 
 
 // To compile and run the BFS Levels code:
@@ -80,6 +79,7 @@ ls ../../Data/GrfWTxt
 
 // TESTS, APPS and DEMOS
 // Individual tests
+// Note that Dijkstra's algorithm is run from vertex 1 every time
 java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dag01.txt Output/
 java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/dag02.txt Output/
 java -cp ../Classes/DijkstraClasses DijkstraMain ../../Data/GrfWTxt/clrsexample.txt Output/
@@ -108,6 +108,7 @@ ls ../../Data/GrfWTxt
 
 // TESTS, APPS and DEMOS
 // Individual tests
+// Note that this problem assumes the graph is connected
 java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/ugraphconnected01.txt Output/
 java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/ugraphconnected02.txt Output/
 java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/ugraphconnected03.txt Output/
@@ -128,6 +129,7 @@ ls ../../Data/GrfWTxt
 // TESTS, APPS and DEMOS
 // Individual tests
 // Note that Prim's algorithm is run from vertex 1 every time
+// Note that this problem assumes the graph is connected
 java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected01.txt Output/
 java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected02.txt Output/
 java -cp ../Classes/PrimClasses PrimMain ../../Data/GrfWTxt/ugraphconnected03.txt Output/

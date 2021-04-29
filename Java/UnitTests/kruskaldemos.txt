@@ -1,5 +1,7 @@
 FOR THE DEMOS:
-// Must be in Homework8/Java/UnitTests
+
+**** To run the Java code for Kruskal's Algorithm, as a demo:
+// cd Java/UnitTests
 
 // To compile and run the Kruskal code:
 javac -d ../Classes/KruskalClasses/ ../Src/Kruskal/*.java
@@ -11,6 +13,7 @@ ls ../../Data/GrfWTxt
 
 // TESTS, APPS and DEMOS
 // Individual tests
+// Note that this problem assumes the graph is connected
 java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/ugraphconnected01.txt ../../Data/GrfKTre/
 java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/ugraphconnected02.txt ../../Data/GrfKTre/
 java -cp ../Classes/KruskalClasses KruskalMain ../../Data/GrfWTxt/ugraphconnected03.txt ../../Data/GrfKTre/
@@ -25,7 +28,7 @@ double-click on 9_ViewWeightedGraphFromGrfFiles.nb
 Evaluate the notebook
 select an input from the INPUT menu to view more examples
 
-**** To view the graph and the results of running the Kruskal's algorithm (KruskalMain) (available in Data/GrfKTre/):
+**** To view the graph and the results of running Kruskal's algorithm (KruskalMain) (available in Data/GrfKTre/):
 cd Mathematica
 double-click on 6_KruskalOutput.nb
 Evaluate the notebook
