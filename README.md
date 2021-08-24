@@ -5,7 +5,7 @@ Sivan Nachum
 
 
 
-What is in the Portfolio:
+**What is in the Portfolio:**
 
 Data // contains graph data on which to run the Java code and output from the Java code for visualization in Mathematica
 
@@ -16,7 +16,7 @@ Mathematica // contains Mathematica visualizations for the Java code
 
 
 
-**** Organization of "Java" folder:
+**Organization of "Java" folder:**
 
 Classes // contains Java classes after compilation via command line
 
@@ -38,7 +38,7 @@ Note:
 
 
 
-*** Visualize using one of the Mathematica notebooks provided:
+**Visualize using one of the Mathematica notebooks provided:**
 
 - 0 is for visualizing the unweighted undirected graphs
 
@@ -67,9 +67,9 @@ Data/GrfTxt, Data/GrfTxt, Data/GrfCmp, Data/GrfLev, Data/GrfWSpvTre, Data/GrfAep
 
 
 
-**** Src folder:
+**Src folder:**
 
-SCC folder:
+_SCC folder:_
 
 DGraphEdgeList and DGraphAdjList directed graph representations. 
 
@@ -83,7 +83,7 @@ It requires the name of a file from which to read a graph and a folder path to w
 
 
 
-BFS folder:
+_BFS folder:_
 
 GraphEdgeList and GraphAdjList undirected graph representations. 
 
@@ -98,7 +98,7 @@ It requires the name of a file from which to read a graph and a folder path to w
 
 
 
-Dijkstra folder:
+_Dijkstra folder:_
 
 DGraphEdgeList and DGraphAdjList weighted directed graph representations. 
 
@@ -113,7 +113,7 @@ It requires the name of a file from which to read a graph and a folder path to w
 
 
 
-AllEdgesPath folder (extra credit):
+_AllEdgesPath folder (extra credit):_
 
 GraphEdgeList and GraphAdjList undirected graph representations. 
 
@@ -132,7 +132,7 @@ the name of a file to which to write the path that traverses each edge exactly o
 
 
 
-Kruskal folder (extra credit):
+_Kruskal folder (extra credit):_
 
 GraphEdgeList undirected weighted graph representation. 
 
@@ -148,7 +148,7 @@ It requires the name of a file from which to read a graph and a folder path to w
 
 
 
-Prim folder (extra credit):
+_Prim folder (extra credit):_
 
 GraphEdgeList and GraphAdjList undirected weighted graph representations. 
 
