@@ -15,6 +15,7 @@ Mathematica // contains Mathematica visualizations for the Java code
 
 
 
+
 **** Organization of "Java" folder:
 
 Classes // contains Java classes after compilation via command line
@@ -24,6 +25,7 @@ Demos // contains main programs for various Java applications, see below for det
 Src // contains source code for various Java applications, see below for details
 
 UnitTests // contains instructions for running code and viewing demos
+
 
 
 
